@@ -1,0 +1,198 @@
+/* Base styles */
+body, html {
+    font-family: 'Montserrat', sans-serif; /* Body text font */
+    font-size: 16px; /* Base font size */
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    min-width: 500px;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* Normal weight */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Typography hierarchy */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif; /* Headings font */
+  }
+  
+  h1 {
+    font-size: 39.81px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 33.18px;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 27.65px;
+    font-weight: 600;
+  }
+  
+  h4 {
+    font-size: 23.04px;
+    font-weight: 600;
+  }
+  
+  /* Navbar styles */
+  .navbar img {
+    cursor: pointer;
+  }
+  
+  .navbar {
+    padding-left: 10px;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  
+  .navbar-light {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-toggler {
+      display: none;
+    }
+  }
+  
+  .navbar-hieght {
+    height: 60px;
+  }
+  
+  .navbar-brand {
+    color: #270074 !important;
+  }
+  
+  .nav-link {
+    color: #15096c !important;
+  }
+  
+  .nav-link:hover {
+    color: #350079 !important;
+  }
+  
+  .active {
+    color: #270074 !important;
+  }
+  
+/* This is your side bar and top bar color - customize */
+.bg-success{
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+   
+  }
+  
+  /* This is your side bar right and left margin color - customize */
+  .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important; 
+   
+  }
+  
+  .offCanvas-home {
+    font-size: 18px;
+  
+  
+  }
+  .navbar-light{
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  
+  .navbar {
+    padding-left: 10px;
+  }
+
+  .btn-toggle::before {
+    width: 1.25em;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(0,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+  }
+  
+  .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .activeLink {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #d2f4ea;
+  }
+  
+  .btn-toggle-nav a {
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.25rem;
+  }
+  
+  /* Main content styles */
+  .emphasized-text {
+    font-weight: bold; /* Emphasized text styling */
+  }
+  
+  hr {
+    margin: 20px 0 32px;
+    padding: 0;
+  }
+  
+  .bg-body-tertiary {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  .em {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  .mono-font {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    --bs-pagination-hover-color: #222;
+    --bs-pagination-hover-bg: #d2f4ea;
+    --bs-pagination-active-color: #222;
+    --bs-pagination-active-bg: #d2f4ea;
+    --bs-pagination-active-border-color: #222;
+  }
+  
+  .page-link {
+    color: grey;
+  }
+  

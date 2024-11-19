@@ -1,0 +1,210 @@
+/* Navigation Styles (from the first CSS) */
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    min-width: 500px;
+  }
+  
+  .navbar img {
+    cursor: pointer;
+  }
+  
+  .bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .navbar {
+    padding-left: 10px;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-toggler {
+      display: none;
+    }
+  }
+  
+  .navbar-hieght {
+    height: 60px;
+  }
+  
+  .navbar-light {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  
+  .navbar-brand {
+    color: #270074 !important;
+  }
+  
+  .nav-link {
+    color: #15096c !important;
+    font-size: 1.2em;
+  }
+  
+  .nav-link:hover {
+    color: #350079 !important;
+  }
+  
+  .active {
+    color: #270074 !important;
+  }
+  
+  .offcanvas,
+  .offcanvas-md,
+  .offcanvas-sm {
+    --bs-offcanvas-width: 250px;
+  }
+  
+  .btn-toggle {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: transparent;
+  }
+  
+  .btn-toggle:hover,
+  .btn-toggle:focus {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: #d2f4ea;
+  }
+  
+  .btn-toggle-nav a:hover,
+  .btn-toggle-nav a:active {
+    background-color: #d2f4ea;
+  }
+  
+  .btn-toggle::before {
+    width: 1.25em;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba(0,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+  }
+  
+  .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .activeLink {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #d2f4ea;
+  }
+  
+  .btn-toggle-nav a {
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.25rem;
+  }
+  
+  .pagination {
+    --bs-pagination-hover-color: #222;
+    --bs-pagination-hover-bg: #d2f4ea;
+    --bs-pagination-active-color: #222;
+    --bs-pagination-active-bg: #d2f4ea;
+    --bs-pagination-active-border-color: #222;
+  }
+  
+  .page-link {
+    color: grey;
+  }
+  
+  /* Main Content Area Styles (from the second CSS) */
+  html body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Increase size */
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  h2 {
+    font-size: 1.424em;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.802em;
+    font-weight: 400;
+  }
+  
+  p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .box-outline {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .box-outline:hover {
+    transform: scale(1.05);
+  }
+  
+  .logo-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-mehdi {
+    text-align: center;
+  }
+  
+  .code-background {
+    background-color: rgba(213, 213, 213, 0.363);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 1px 1px 1px;
+  }
+  
+  .btn-primary {
+    background-color: #994b4b;
+    border-color: #994b4b;
+  }
+  
+  .btn-primary:hover {
+    background-color: #270074;
+  }
+  
+  .bg-body-tertiary {
+    background-color: rgb(255, 255, 255);
+  }
+  
